@@ -1,0 +1,137 @@
+{
+  "American Purpose": {
+    "domain": "americanpurpose.com",
+    "allow_cookies": 1,
+    "block_regex": "\\/steadyhq\\.com",
+    "upd_version": "3.6.1.5"
+  },
+  "Business Insider": {
+    "domain": "businessinsider.com",
+    "allow_cookies": 1,
+    "block_regex": "(\\.tinypass\\.com\\/|\\.sophi\\.io\\/|\\.businessinsider\\.com\\/chunks\\/scripts\\/components~paywall-client\\..+\\.js)",
+    "upd_version": "3.6.3.5"
+  },
+  "Capital.fr": {
+    "domain": "capital.fr",
+    "allow_cookies": 1,
+    "block_regex": "\\.poool\\.fr",
+    "upd_version": "3.6.2.2"
+  },
+  "Crain's Grand Rapids Business": {
+    "domain": "crainsgrandrapids.com",
+    "allow_cookies": 1,
+    "block_regex": "js\\.pelcro\\.com",
+    "upd_version": "3.6.2.5"
+  },
+  "Inc-aus.com": {
+    "domain": "inc-aus.com",
+    "block_regex": "\\.inc-aus\\.com\\/zephr\\/feature",
+    "remove_cookies_select_drop": ["blaize_session"],
+    "upd_version": "3.6.3.1"
+  },
+  "L'Humanité": {
+    "domain": "humanite.fr",
+    "allow_cookies": 1,
+    "block_regex": "\\.qiota\\.com",
+    "ld_google_webcache": "div.single__categories svg|div.rich-text > div.gs-row",
+    "upd_version": "3.6.1.5"
+  },
+  "Le Monde (link to archive.is)": {
+    "domain": "lemonde.fr",
+    "allow_cookies": 1,
+    "add_ext_link": "section.paywall|article",
+    "add_ext_link_type": "archive.is",
+    "upd_version": "3.6.1.3"
+  },
+  "MediaNews Group": {
+    "domain": "###_usa_mng",
+    "group": [
+      "bostonherald.com",
+      "denverpost.com",
+      "eastbaytimes.com",
+      "mercurynews.com",
+      "ocregister.com",
+      "pressenterprise.com",
+      "twincities.com"
+    ],
+    "allow_cookies": 1,
+    "block_regex": "((\\.{domain}\\/script|\\/.+\\/loader\\.min)\\.js|\\.tinypass\\.com\\/|cdn\\.ampproject\\.org\\/v\\d\\/amp-subscriptions-.+\\.js)",
+    "ld_json_url": "#server-paywall|div.body-copy|1",
+    "upd_version": "3.6.2.3"
+  },
+  "Neue Zürcher Zeitung": {
+    "domain": "nzz.ch",
+    "allow_cookies": 1,
+    "block_regex": "(\\.piano\\.io\\/|ens\\.nzz\\.ch\\/.+\\/Bootstrap\\.js)",
+    "cs_code": "[{\"cond\":\".nzzinteraction\", \"rm_class\":\"nzzinteraction\"}]",
+    "upd_version": "3.6.2.1"
+  },
+  "Nordwest Zeitung": {
+    "domain": "nwzonline.de",
+    "allow_cookies": 1,
+    "block_regex": "\\.piano\\.io",
+    "upd_version": "3.6.2.8"
+  },
+  "Ovb-online.de": {
+    "domain": "ovb-online.de",
+    "allow_cookies": 1,
+    "block_regex": "\\.ovb-online\\.de\\/sub\\/js\\/pc-offer-west\\.js",
+    "upd_version": "3.6.3.2"
+  },
+  "Reuters": {
+    "domain": "reuters.com",
+    "allow_cookies": 1,
+    "block_regex": "\\.reuters\\.com\\/arc\\/subs\\/p\\.min\\.js",
+    "upd_version": "3.6.2.4"
+  },
+  "Seeking Alpha": {
+    "domain": "seekingalpha.com",
+    "allow_cookies": 1,
+    "block_regex": "(\\.piano\\.io\\/xbuilder\\/experience\\/execute|cdn\\.ampproject\\.org(\\/.+)?\\/v\\d\\/amp-(access|loader)-.+\\.js)",
+    "upd_version": "3.6.2.6"
+  },
+  "Smartcompany.com.au": {
+    "domain": "smartcompany.com.au",
+    "block_regex": "\\.smartcompany\\.com\\.au\\/zephr\\/feature",
+    "remove_cookies_select_drop": ["blaize_session"],
+    "upd_version": "3.6.3.1"
+  },
+  "Spektrum.de": {
+    "domain": "spektrum.de",
+    "allow_cookies": 1,
+    "cs_code": "[{\"cond\":\"article.pw-premium\", \"rm_class\":\"pw-premium\"}]",
+    "upd_version": "3.6.2.6"
+  },
+  "The Banker (removed)": {
+    "domain": "thebanker.com",
+    "allow_cookies": 1,
+    "nofix": 1,
+    "upd_version": "3.6.1.6"
+  },
+  "The Economist": {
+    "domain": "economist.com",
+    "allow_cookies": 1,
+    "block_regex": "\\.tinypass\\.com",
+    "ld_google_webcache": "div#tp-regwall|section[data-body-id]",
+    "upd_version": "3.6.3.3"
+  },
+  "Themandarin.com.au": {
+    "domain": "themandarin.com.au",
+    "allow_cookies": 1,
+    "ld_json_url": "div[data-enterprise-agreement-paywall='true']|div.paywall-mandy",
+    "upd_version": "3.6.3.1"
+  },
+  "The Washington Post": {
+    "domain": "washingtonpost.com",
+    "allow_cookies": 1,
+    "block_regex": "\\.washingtonpost\\.com\\/subscribe\\/static\\/tetro-client\\/fusion\\/tetro\\.min\\.js",
+    "upd_version": "3.6.3.4"
+  },
+  "WirtschaftsWoche": {
+    "domain": "wiwo.de",
+    "allow_cookies": 1,
+    "block_regex": "\\.wiwo\\.de\\/js\\/.+\\/wt\\..+\\.js",
+    "ld_archive_is": "div.o-paywall|article",
+    "upd_version": "3.6.1.7"
+  }
+}
